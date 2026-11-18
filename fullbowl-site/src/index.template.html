@@ -1,0 +1,596 @@
+<a class="skip" href="#main" data-i18n="a11y.skip">{{a11y.skip}}</a>
+
+<header class="site-header" id="top">
+  <div class="wrap header-row">
+    <a class="brand" href="#top" aria-label="FullBowl">
+      <img src="assets/img/logo-96.webp" width="34" height="34" alt="">
+      <span>FullBowl</span>
+    </a>
+    <nav class="main-nav" id="main-nav" aria-label="FullBowl">
+      <ul>
+        <li><a href="#problem" data-i18n="nav.problem">{{nav.problem}}</a></li>
+        <li><a href="#how" data-i18n="nav.how">{{nav.how}}</a></li>
+        <li><a href="#proof" data-i18n="nav.proof">{{nav.proof}}</a></li>
+        <li><a href="#who" data-i18n="nav.who">{{nav.who}}</a></li>
+        <li><a href="#team" data-i18n="nav.team">{{nav.team}}</a></li>
+        <li><a href="#faq" data-i18n="nav.faq">{{nav.faq}}</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <div class="lang" role="group" data-i18n-attr="aria-label:a11y.lang" aria-label="{{a11y.lang}}">
+        <button type="button" data-lang="az" aria-pressed="true" lang="az">AZ</button>
+        <button type="button" data-lang="en" aria-pressed="false" lang="en">EN</button>
+        <button type="button" data-lang="ru" aria-pressed="false" lang="ru">RU</button>
+      </div>
+      <a class="btn btn-primary header-cta" href="#join" data-i18n="nav.cta">{{nav.cta}}</a>
+      <button class="menu-btn" type="button" aria-controls="main-nav" aria-expanded="false" data-i18n-attr="aria-label:a11y.menu" aria-label="{{a11y.menu}}">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div class="hero-copy">
+        <span class="kicker" data-i18n="hero.eyebrow">{{hero.eyebrow}}</span>
+        <h1 data-i18n-html="hero.title.split">{{html:hero.title.split}}</h1>
+        <p class="lead" data-i18n="hero.lead">{{hero.lead}}</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" href="#join">
+            <span data-i18n="hero.cta1">{{hero.cta1}}</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#how" data-i18n="hero.cta2">{{hero.cta2}}</a>
+        </div>
+        <p class="hero-note"><span class="dot" aria-hidden="true"></span><span data-i18n="hero.note">{{hero.note}}</span></p>
+      </div>
+
+      <figure class="hero-visual" style="margin:0">
+        <div class="stage">
+          <svg class="streets" viewBox="0 0 400 410" preserveAspectRatio="none" fill="none" stroke="currentColor" aria-hidden="true">
+            <path d="M-10 330 C 90 300, 160 360, 250 320 S 380 270, 420 300" stroke-width="10" stroke-linecap="round"/>
+            <path d="M40 -10 L 70 420 M150 -10 L 135 420 M250 -10 L 270 420 M340 -10 L 330 420" stroke-width="4"/>
+            <path d="M-10 60 L 420 85 M-10 150 L 420 165 M-10 235 L 420 245" stroke-width="4"/>
+            <path d="M70 60 L 250 245 M135 165 L 340 85" stroke-width="2.5" stroke-dasharray="2 8" stroke-linecap="round"/>
+            <circle cx="205" cy="200" r="7" fill="currentColor" stroke="none"/>
+            <circle cx="300" cy="110" r="7" fill="currentColor" stroke="none"/>
+            <circle cx="100" cy="270" r="7" fill="currentColor" stroke="none"/>
+          </svg>
+          <img class="phone phone-back" src="assets/img/screen-map.webp" width="560" height="1149" data-i18n-attr="alt:how.alt1" alt="{{how.alt1}}">
+          <img class="phone phone-front" src="assets/img/screen-photo.webp" width="560" height="1149" data-i18n-attr="alt:how.alt2" alt="{{how.alt2}}">
+          <div class="chip chip-score" aria-hidden="true">
+            <small data-i18n="hero.chip.score">{{hero.chip.score}}</small>
+            <div class="row"><b>86</b><span class="ok" data-i18n="hero.chip.accepted">{{hero.chip.accepted}}</span></div>
+          </div>
+          <div class="chip chip-cover" aria-hidden="true">
+            <div><b>9.50</b> / 14.30 AZN <span data-i18n="hero.chip.covered">{{hero.chip.covered}}</span></div>
+            <div class="bar"><i></i></div>
+          </div>
+        </div>
+        <figcaption class="hero-caption" data-i18n="hero.caption">{{hero.caption}}</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <div class="facts">
+    <div class="wrap">
+      <ul>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="7.5" cy="7.5" r="2.5"/><circle cx="16.5" cy="16.5" r="2.5"/><path d="M18 6 6 18"/></svg>
+          <span data-i18n="facts.1">{{facts.1}}</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-3-2-3 2-3-2-3 2z"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>
+          <span data-i18n="facts.2">{{facts.2}}</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3 5 6v5c0 4.5 3 8.3 7 10 4-1.7 7-5.5 7-10V6z"/><path d="m9 12 2 2 4-4"/></svg>
+          <span data-i18n="facts.3">{{facts.3}}</span>
+        </li>
+        <li>
+          <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><ellipse cx="6" cy="10" rx="2" ry="2.6"/><ellipse cx="10" cy="5.8" rx="2" ry="2.6"/><ellipse cx="14.5" cy="5.8" rx="2" ry="2.6"/><ellipse cx="18.5" cy="10" rx="2" ry="2.6"/><path d="M12.2 11.2c-2.6 0-5.4 3.6-5.4 6.2 0 1.7 1.3 2.6 2.8 2.6 1.1 0 1.7-.6 2.6-.6s1.5.6 2.6.6c1.5 0 2.8-.9 2.8-2.6 0-2.6-2.8-6.2-5.4-6.2z"/></svg>
+          <span data-i18n="facts.4">{{facts.4}}</span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- PROBLEM -->
+  <section class="section" id="problem">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker" data-i18n="problem.kicker">{{problem.kicker}}</span>
+        <h2 data-i18n="problem.title">{{problem.title}}</h2>
+        <p data-i18n="problem.lead">{{problem.lead}}</p>
+      </div>
+      <div class="problem-cards">
+        <article class="p-card">
+          <h3 data-i18n="problem.c1.t">{{problem.c1.t}}</h3>
+          <p data-i18n="problem.c1.d">{{problem.c1.d}}</p>
+        </article>
+        <article class="p-card">
+          <h3 data-i18n="problem.c2.t">{{problem.c2.t}}</h3>
+          <p data-i18n="problem.c2.d">{{problem.c2.d}}</p>
+        </article>
+        <article class="p-card">
+          <h3 data-i18n="problem.c3.t">{{problem.c3.t}}</h3>
+          <p data-i18n="problem.c3.d">{{problem.c3.d}}</p>
+        </article>
+      </div>
+      <blockquote class="quote"><p data-i18n="problem.quote">{{problem.quote}}</p></blockquote>
+      <p class="source" data-i18n="problem.src">{{problem.src}}</p>
+
+      <div class="compare">
+        <h3 data-i18n="cmp.title">{{cmp.title}}</h3>
+        <table class="cmp-table">
+          <thead><tr><th scope="col" data-i18n="cmp.h1">{{cmp.h1}}</th><th scope="col" data-i18n="cmp.h2">{{cmp.h2}}</th></tr></thead>
+          <tbody>
+            <tr><td data-i18n="cmp.r1a">{{cmp.r1a}}</td><td data-i18n="cmp.r1b">{{cmp.r1b}}</td></tr>
+            <tr><td data-i18n="cmp.r2a">{{cmp.r2a}}</td><td data-i18n="cmp.r2b">{{cmp.r2b}}</td></tr>
+            <tr><td data-i18n="cmp.r3a">{{cmp.r3a}}</td><td data-i18n="cmp.r3b">{{cmp.r3b}}</td></tr>
+            <tr><td data-i18n="cmp.r4a">{{cmp.r4a}}</td><td data-i18n="cmp.r4b">{{cmp.r4b}}</td></tr>
+            <tr><td data-i18n="cmp.r5a">{{cmp.r5a}}</td><td data-i18n="cmp.r5b">{{cmp.r5b}}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="section how" id="how">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker" data-i18n="how.kicker">{{how.kicker}}</span>
+        <h2 data-i18n="how.title">{{how.title}}</h2>
+      </div>
+      <ol class="steps" style="list-style:none;margin:0;padding:0">
+        <li class="step">
+          <figure><img src="assets/img/screen-map.webp" width="560" height="1149" loading="lazy" data-i18n-attr="alt:how.alt1" alt="{{how.alt1}}"></figure>
+          <div class="txt"><span class="num">01</span><h3 data-i18n="how.s1.t">{{how.s1.t}}</h3><p data-i18n="how.s1.d">{{how.s1.d}}</p></div>
+        </li>
+        <li class="step">
+          <figure><img src="assets/img/screen-photo.webp" width="560" height="1149" loading="lazy" data-i18n-attr="alt:how.alt2" alt="{{how.alt2}}"></figure>
+          <div class="txt"><span class="num">02</span><h3 data-i18n="how.s2.t">{{how.s2.t}}</h3><p data-i18n="how.s2.d">{{how.s2.d}}</p></div>
+        </li>
+        <li class="step">
+          <figure><img src="assets/img/screen-repay.webp" width="560" height="1149" loading="lazy" data-i18n-attr="alt:how.alt3" alt="{{how.alt3}}"></figure>
+          <div class="txt"><span class="num">03</span><h3 data-i18n="how.s3.t">{{how.s3.t}}</h3><p data-i18n="how.s3.d">{{how.s3.d}}</p></div>
+        </li>
+        <li class="step">
+          <figure><img src="assets/img/screen-prizes.webp" width="560" height="1149" loading="lazy" data-i18n-attr="alt:how.alt4" alt="{{how.alt4}}"></figure>
+          <div class="txt"><span class="num">04</span><h3 data-i18n="how.s4.t">{{how.s4.t}}</h3><p data-i18n="how.s4.d">{{how.s4.d}}</p></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- PROOF -->
+  <section class="section proof" id="proof">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker" data-i18n="proof.kicker">{{proof.kicker}}</span>
+        <h2 data-i18n="proof.title">{{proof.title}}</h2>
+        <p data-i18n="proof.lead">{{proof.lead}}</p>
+      </div>
+      <div class="proof-grid">
+        <div>
+          <ul class="checks">
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><ellipse cx="6" cy="10" rx="2" ry="2.6"/><ellipse cx="10" cy="5.8" rx="2" ry="2.6"/><ellipse cx="14.5" cy="5.8" rx="2" ry="2.6"/><ellipse cx="18.5" cy="10" rx="2" ry="2.6"/><path d="M12.2 11.2c-2.6 0-5.4 3.6-5.4 6.2 0 1.7 1.3 2.6 2.8 2.6 1.1 0 1.7-.6 2.6-.6s1.5.6 2.6.6c1.5 0 2.8-.9 2.8-2.6 0-2.6-2.8-6.2-5.4-6.2z"/></svg></span>
+              <b data-i18n="proof.c1.t">{{proof.c1.t}}</b><span class="d" data-i18n="proof.c1.d">{{proof.c1.d}}</span>
+            </li>
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M9 7c0-1.5 1-2 1-3.5M13.5 7c0-1.5 1-2 1-3.5"/></svg></span>
+              <b data-i18n="proof.c2.t">{{proof.c2.t}}</b><span class="d" data-i18n="proof.c2.d">{{proof.c2.d}}</span>
+            </li>
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span>
+              <b data-i18n="proof.c3.t">{{proof.c3.t}}</b><span class="d" data-i18n="proof.c3.d">{{proof.c3.d}}</span>
+            </li>
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h3l1.5-2.5h7L17 8h3v11H4z"/><circle cx="12" cy="13" r="3.5"/></svg></span>
+              <b data-i18n="proof.c4.t">{{proof.c4.t}}</b><span class="d" data-i18n="proof.c4.d">{{proof.c4.d}}</span>
+            </li>
+            <li>
+              <span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s-6.5-5.6-6.5-11a6.5 6.5 0 0 1 13 0c0 5.4-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg></span>
+              <b data-i18n="proof.c5.t">{{proof.c5.t}}</b><span class="d" data-i18n="proof.c5.d">{{proof.c5.d}}</span>
+            </li>
+          </ul>
+
+          <div class="score">
+            <div class="score-head"><b data-i18n="score.title">{{score.title}}</b><small>0-100</small></div>
+            <div class="score-bar" aria-hidden="true"><i></i><i></i><i></i></div>
+            <div class="score-axis" aria-hidden="true"><span style="left:0">0</span><span style="left:50%">50</span><span style="left:80%">80</span><span style="left:100%">100</span></div>
+            <div class="score-zones">
+              <div><b>0-49</b> <span data-i18n="score.z1">{{score.z1}}</span></div>
+              <div><b>50-79</b> <span data-i18n="score.z2">{{score.z2}}</span></div>
+              <div><b>80-100</b> <span data-i18n="score.z3">{{score.z3}}</span></div>
+            </div>
+            <p class="score-note" data-i18n="score.note">{{score.note}}</p>
+          </div>
+        </div>
+
+        <div class="receipt-wrap">
+          <div class="receipt">
+            <span class="badge" data-i18n="receipt.badge">{{receipt.badge}}</span>
+            <h4 data-i18n="receipt.store">{{receipt.store}}</h4>
+            <div class="kv muted" style="margin-top:8px">
+              <span data-i18n="receipt.fiscal">{{receipt.fiscal}}</span><span>8QK2M7XW</span>
+              <span data-i18n="receipt.date">{{receipt.date}}</span><span>12.11.2026 19:42</span>
+            </div>
+            <hr>
+            <div class="line"><span data-i18n="receipt.i1">{{receipt.i1}}</span><span>9.80</span></div>
+            <div class="line"><span data-i18n="receipt.i2">{{receipt.i2}}</span><span>4.50</span></div>
+            <hr>
+            <div class="line total"><span data-i18n="receipt.total">{{receipt.total}}</span><span>14.30 AZN</span></div>
+            <hr>
+            <ul class="ok-list">
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="receipt.k1">{{receipt.k1}}</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="receipt.k2">{{receipt.k2}}</span></li>
+              <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="receipt.k3">{{receipt.k3}}</span></li>
+            </ul>
+            <div class="progress">
+              <div data-i18n-html="receipt.progress">{{html:receipt.progress}}</div>
+              <div class="bar" aria-hidden="true"><i></i></div>
+            </div>
+            <span class="stamp" aria-hidden="true" data-i18n="receipt.stamp">{{receipt.stamp}}</span>
+          </div>
+        </div>
+      </div>
+      <p class="proof-honest" data-i18n="proof.honest">{{proof.honest}}</p>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section class="section demo" id="demo">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker" data-i18n="demo.kicker">{{demo.kicker}}</span>
+        <h2 data-i18n="demo.title">{{demo.title}}</h2>
+        <p data-i18n="demo.lead">{{demo.lead}}</p>
+      </div>
+      <div class="demo-grid">
+        <article class="mission-card" aria-labelledby="demo-mission">
+          <div class="mc-photo"><img src="assets/img/mission-cat.webp" width="640" height="500" loading="lazy" alt=""></div>
+          <div class="mc-body">
+            <h3 id="demo-mission" data-i18n="demo.mission">{{demo.mission}}</h3>
+            <p class="mc-meta" data-i18n="demo.meta">{{demo.meta}}</p>
+            <div class="mc-tags">
+              <span class="tag ok"><span data-i18n="score.title">{{score.title}}</span> 86</span>
+              <span class="tag ok" data-i18n="demo.receiptok">{{demo.receiptok}}</span>
+            </div>
+            <div class="mc-progress">
+              <div class="mc-row"><span id="demo-covered" aria-live="polite">9.50 / 14.30 AZN qarşılandı</span><span id="demo-left">Qalan: 4.80 AZN</span></div>
+              <div class="bar" aria-hidden="true"><i id="demo-bar" style="width:66.4%"></i></div>
+            </div>
+          </div>
+        </article>
+
+        <form class="donate" id="demo-form" novalidate>
+          <div class="field">
+            <label for="demo-amount" data-i18n="demo.amount">{{demo.amount}}</label>
+            <div class="amount-row">
+              <input id="demo-amount" name="amount" type="number" inputmode="decimal" min="0.10" step="0.10" value="2.00">
+              <div class="quick" role="group">
+                <button type="button" data-amt="1">1</button>
+                <button type="button" data-amt="2">2</button>
+                <button type="button" data-amt="3">3</button>
+                <button type="button" data-amt="rest" data-i18n="demo.rest">{{demo.rest}}</button>
+              </div>
+            </div>
+            <p class="err" id="demo-err" hidden></p>
+          </div>
+          <label class="check"><input id="demo-tip" type="checkbox"><span data-i18n="demo.tip">{{demo.tip}}</span></label>
+
+          <dl class="breakdown">
+            <div><dt data-i18n="demo.b.donation">{{demo.b.donation}}</dt><dd id="b-donation">2.00 AZN</dd></div>
+            <div id="b-tip-row" hidden><dt data-i18n="demo.b.tip">{{demo.b.tip}}</dt><dd>1.00 AZN</dd></div>
+            <div><dt data-i18n="demo.b.comm">{{demo.b.comm}}</dt><dd>0.00 AZN</dd></div>
+            <div><dt data-i18n="demo.b.fee">{{demo.b.fee}}</dt><dd class="muted" data-i18n="demo.b.feeval">{{demo.b.feeval}}</dd></div>
+            <div class="sum"><dt data-i18n="demo.b.feeder">{{demo.b.feeder}}</dt><dd id="b-feeder">2.00 AZN</dd></div>
+          </dl>
+
+          <div class="demo-actions">
+            <button class="btn btn-primary" type="submit" id="demo-pay"><span data-i18n="demo.pay">{{demo.pay}}</span></button>
+            <button class="btn btn-ghost" type="button" id="demo-reset" hidden data-i18n="demo.reset">{{demo.reset}}</button>
+          </div>
+          <p class="demo-status" id="demo-status" role="status" hidden></p>
+          <p class="demo-note" data-i18n="demo.note">{{demo.note}}</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHO -->
+  <section class="section" id="who">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker" data-i18n="who.kicker">{{who.kicker}}</span>
+        <h2 data-i18n="who.title">{{who.title}}</h2>
+      </div>
+      <div class="who-grid">
+        <article class="who-card is-main">
+          <h3 data-i18n="who.f.t">{{who.f.t}}</h3>
+          <p class="lead" data-i18n="who.f.lead">{{who.f.lead}}</p>
+          <ul>
+            <li data-i18n="who.f.1">{{who.f.1}}</li>
+            <li data-i18n="who.f.2">{{who.f.2}}</li>
+            <li data-i18n="who.f.3">{{who.f.3}}</li>
+            <li data-i18n="who.f.4">{{who.f.4}}</li>
+          </ul>
+        </article>
+        <article class="who-card">
+          <h3 data-i18n="who.d.t">{{who.d.t}}</h3>
+          <p class="lead" data-i18n="who.d.lead">{{who.d.lead}}</p>
+          <ul>
+            <li data-i18n="who.d.1">{{who.d.1}}</li>
+            <li data-i18n="who.d.2">{{who.d.2}}</li>
+            <li data-i18n="who.d.3">{{who.d.3}}</li>
+          </ul>
+        </article>
+        <article class="who-card">
+          <h3 data-i18n="who.s.t">{{who.s.t}}</h3>
+          <p class="lead" data-i18n="who.s.lead">{{who.s.lead}}</p>
+          <ul>
+            <li data-i18n="who.s.1">{{who.s.1}}</li>
+            <li data-i18n="who.s.2">{{who.s.2}}</li>
+            <li data-i18n="who.s.3">{{who.s.3}}</li>
+          </ul>
+        </article>
+        <article class="who-card">
+          <h3 data-i18n="who.c.t">{{who.c.t}}</h3>
+          <p class="lead" data-i18n="who.c.lead">{{who.c.lead}}</p>
+          <ul>
+            <li data-i18n="who.c.1">{{who.c.1}}</li>
+            <li data-i18n="who.c.2">{{who.c.2}}</li>
+            <li data-i18n="who.c.3">{{who.c.3}}</li>
+          </ul>
+        </article>
+      </div>
+
+      <div class="money">
+        <h3 data-i18n="money.title">{{money.title}}</h3>
+        <div class="flow">
+          <div class="node"><b data-i18n="money.n1">{{money.n1}}</b><small data-i18n="money.n1d">{{money.n1d}}</small></div>
+          <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <div class="node mid"><b data-i18n="money.n2">{{money.n2}}</b><small data-i18n="money.n2d">{{money.n2d}}</small></div>
+          <span class="arrow" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+          <div class="node"><b data-i18n="money.n3">{{money.n3}}</b><small data-i18n="money.n3d">{{money.n3d}}</small></div>
+        </div>
+        <div class="money-text">
+          <p data-i18n="money.p1">{{money.p1}}</p>
+          <p data-i18n="money.p2">{{money.p2}}</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- STATUS -->
+  <section class="section status" id="status">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker" data-i18n="status.kicker">{{status.kicker}}</span>
+        <h2 data-i18n="status.title">{{status.title}}</h2>
+      </div>
+      <div class="status-grid">
+        <div class="st-col done">
+          <h3><i></i><span data-i18n="status.done">{{status.done}}</span></h3>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="status.done.1">{{status.done.1}}</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="status.done.2">{{status.done.2}}</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="status.done.3">{{status.done.3}}</span></li>
+          </ul>
+        </div>
+        <div class="st-col next">
+          <h3><i></i><span data-i18n="status.next">{{status.next}}</span></h3>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg><span data-i18n="status.next.1">{{status.next.1}}</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg><span data-i18n="status.next.2">{{status.next.2}}</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg><span data-i18n="status.next.3">{{status.next.3}}</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg><span data-i18n="status.next.4">{{status.next.4}}</span></li>
+          </ul>
+        </div>
+        <div class="st-col then">
+          <h3><i></i><span data-i18n="status.then">{{status.then}}</span></h3>
+          <ul>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="3 3" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg><span data-i18n="status.then.1">{{status.then.1}}</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="3 3" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg><span data-i18n="status.then.2">{{status.then.2}}</span></li>
+            <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-dasharray="3 3" aria-hidden="true"><circle cx="12" cy="12" r="7"/></svg><span data-i18n="status.then.3">{{status.then.3}}</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM -->
+  <section class="section" id="team">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="kicker" data-i18n="team.kicker">{{team.kicker}}</span>
+        <h2 data-i18n="team.title">{{team.title}}</h2>
+      </div>
+      <div class="team-grid">
+        <article class="member">
+          <img src="assets/img/team-nihat.webp" width="360" height="360" loading="lazy" alt="Nihat Almammadli">
+          <h3>Nihat Almammadli</h3>
+          <span class="role" data-i18n="team.n.role">{{team.n.role}}</span>
+          <p data-i18n="team.n.bio">{{team.n.bio}}</p>
+        </article>
+        <article class="member">
+          <img src="assets/img/team-adam.webp" width="360" height="360" loading="lazy" alt="Adam Mammadov">
+          <h3>Adam Mammadov</h3>
+          <span class="role" data-i18n="team.a.role">{{team.a.role}}</span>
+          <p data-i18n="team.a.bio">{{team.a.bio}}</p>
+        </article>
+        <article class="member">
+          <img src="assets/img/team-salman.webp" width="360" height="360" loading="lazy" alt="Salman Salmanov">
+          <h3>Salman Salmanov</h3>
+          <span class="role" data-i18n="team.s.role">{{team.s.role}}</span>
+          <p data-i18n="team.s.bio">{{team.s.bio}}</p>
+        </article>
+      </div>
+      <p class="team-foot" data-i18n="team.project">{{team.project}}</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section" id="faq" style="padding-top:0">
+    <div class="wrap faq-grid">
+      <div class="section-head">
+        <span class="kicker" data-i18n="faq.kicker">{{faq.kicker}}</span>
+        <h2 data-i18n="faq.title">{{faq.title}}</h2>
+      </div>
+      <div class="faq-list">
+        <details><summary><span data-i18n="faq.q1">{{faq.q1}}</span><span class="pm" aria-hidden="true"></span></summary><p class="answer" data-i18n="faq.a1">{{faq.a1}}</p></details>
+        <details><summary><span data-i18n="faq.q2">{{faq.q2}}</span><span class="pm" aria-hidden="true"></span></summary><p class="answer" data-i18n="faq.a2">{{faq.a2}}</p></details>
+        <details><summary><span data-i18n="faq.q3">{{faq.q3}}</span><span class="pm" aria-hidden="true"></span></summary><p class="answer" data-i18n="faq.a3">{{faq.a3}}</p></details>
+        <details><summary><span data-i18n="faq.q4">{{faq.q4}}</span><span class="pm" aria-hidden="true"></span></summary><p class="answer" data-i18n="faq.a4">{{faq.a4}}</p></details>
+        <details><summary><span data-i18n="faq.q5">{{faq.q5}}</span><span class="pm" aria-hidden="true"></span></summary><p class="answer" data-i18n="faq.a5">{{faq.a5}}</p></details>
+        <details><summary><span data-i18n="faq.q6">{{faq.q6}}</span><span class="pm" aria-hidden="true"></span></summary><p class="answer" data-i18n="faq.a6">{{faq.a6}}</p></details>
+        <details><summary><span data-i18n="faq.q7">{{faq.q7}}</span><span class="pm" aria-hidden="true"></span></summary><p class="answer" data-i18n="faq.a7">{{faq.a7}}</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- JOIN -->
+  <section class="section join" id="join">
+    <div class="wrap join-grid">
+      <div>
+        <div class="section-head" style="margin-bottom:0">
+          <span class="kicker" data-i18n="join.kicker">{{join.kicker}}</span>
+          <h2 data-i18n="join.title">{{join.title}}</h2>
+          <p data-i18n="join.lead">{{join.lead}}</p>
+        </div>
+        <ul class="join-points">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="join.point1">{{join.point1}}</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg><span data-i18n="join.point2">{{join.point2}}</span></li>
+        </ul>
+      </div>
+
+      <div class="form-card">
+        <form class="form" id="join-form" novalidate>
+          <fieldset class="field" id="f-role">
+            <legend data-i18n="join.role">{{join.role}}</legend>
+            <div class="roles">
+              <label><input type="radio" name="role" id="role-feeder" value="feeder"><span class="radio"></span><span data-i18n="join.role.feeder">{{join.role.feeder}}</span></label>
+              <label><input type="radio" name="role" id="role-donor" value="donor"><span class="radio"></span><span data-i18n="join.role.donor">{{join.role.donor}}</span></label>
+              <label><input type="radio" name="role" id="role-sponsor" value="sponsor"><span class="radio"></span><span data-i18n="join.role.sponsor">{{join.role.sponsor}}</span></label>
+              <label><input type="radio" name="role" id="role-city" value="city"><span class="radio"></span><span data-i18n="join.role.city">{{join.role.city}}</span></label>
+            </div>
+            <p class="err" id="err-role" hidden></p>
+          </fieldset>
+
+          <div class="row2">
+            <div class="field" id="f-name">
+              <label for="name" data-i18n="join.name">{{join.name}}</label>
+              <input id="name" name="name" type="text" autocomplete="name" maxlength="80" required>
+              <p class="err" id="err-name" hidden></p>
+            </div>
+            <div class="field" id="f-email">
+              <label for="email" data-i18n="join.email">{{join.email}}</label>
+              <input id="email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="120" required>
+              <p class="err" id="err-email" hidden></p>
+            </div>
+          </div>
+
+          <div class="row2">
+            <div class="field">
+              <label for="phone" data-i18n="join.phone">{{join.phone}}</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" maxlength="20" placeholder="+994 __ ___ __ __">
+            </div>
+            <div class="field">
+              <label for="district" data-i18n="join.district">{{join.district}}</label>
+              <select id="district" name="district">
+                <option value="" data-i18n="join.district.choose">{{join.district.choose}}</option>
+                <option value="Binəqədi">Binəqədi</option>
+                <option value="Nərimanov">Nərimanov</option>
+                <option value="Nəsimi">Nəsimi</option>
+                <option value="Nizami">Nizami</option>
+                <option value="Pirallahı">Pirallahı</option>
+                <option value="Qaradağ">Qaradağ</option>
+                <option value="Sabunçu">Sabunçu</option>
+                <option value="Səbail">Səbail</option>
+                <option value="Suraxanı">Suraxanı</option>
+                <option value="Xətai">Xətai</option>
+                <option value="Xəzər">Xəzər</option>
+                <option value="Yasamal">Yasamal</option>
+                <option value="outside-baku" data-i18n="join.district.other">{{join.district.other}}</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="message" data-i18n="join.msg">{{join.msg}}</label>
+            <textarea id="message" name="message" maxlength="600" data-i18n-attr="placeholder:join.msg.ph" placeholder="{{join.msg.ph}}"></textarea>
+          </div>
+
+          <div class="hp" aria-hidden="true">
+            <label for="website">Website</label>
+            <input id="website" name="_honey" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="field" id="f-consent">
+            <label class="check"><input id="consent" name="consent" type="checkbox"><span data-i18n="join.consent">{{join.consent}}</span></label>
+            <p class="err" id="err-consent" hidden></p>
+          </div>
+
+          <div id="form-msg" class="form-msg" hidden role="alert"></div>
+
+          <div class="form-actions">
+            <button class="btn btn-primary" type="submit" id="submit-btn"><span data-i18n="join.submit">{{join.submit}}</span></button>
+          </div>
+        </form>
+
+        <div class="success" id="join-success" hidden tabindex="-1">
+          <span class="tick"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4L19 7"/></svg></span>
+          <h3 data-i18n="join.ok.t">{{join.ok.t}}</h3>
+          <p data-i18n="join.ok.d">{{join.ok.d}}</p>
+          <p class="form-msg note" id="preview-note" hidden data-i18n="join.preview">{{join.preview}}</p>
+          <button class="btn btn-ghost" type="button" id="again-btn" data-i18n="join.again">{{join.again}}</button>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="brand" href="#top"><img src="assets/img/logo-96.webp" width="34" height="34" alt=""><span>FullBowl</span></a>
+        <p class="foot-tag" data-i18n="foot.tag">{{foot.tag}}</p>
+        <p class="foot-tag" data-i18n="foot.city">{{foot.city}}</p>
+      </div>
+      <div>
+        <h4 data-i18n="foot.nav">{{foot.nav}}</h4>
+        <ul>
+          <li><a href="#how" data-i18n="nav.how">{{nav.how}}</a></li>
+          <li><a href="#proof" data-i18n="nav.proof">{{nav.proof}}</a></li>
+          <li><a href="#who" data-i18n="nav.who">{{nav.who}}</a></li>
+          <li><a href="#faq" data-i18n="nav.faq">{{nav.faq}}</a></li>
+          <li><a href="#join" data-i18n="nav.cta">{{nav.cta}}</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4 data-i18n="foot.contact">{{foot.contact}}</h4>
+        <div class="mail-row">
+          <a href="mailto:%%EMAIL%%" class="mail-text">%%EMAIL%%</a>
+          <button class="copy-btn" type="button" id="copy-mail" data-i18n="foot.copy">{{foot.copy}}</button>
+        </div>
+      </div>
+    </div>
+    <details class="foot-privacy" id="privacy">
+      <summary data-i18n="foot.privacy">{{foot.privacy}}</summary>
+      <p data-i18n="foot.privacy.text">{{foot.privacy.text}}</p>
+    </details>
+    <div class="foot-bottom">
+      <span data-i18n="foot.legal">{{foot.legal}}</span>
+      <span data-i18n="foot.sources">{{foot.sources}}</span>
+      <a href="#top" data-i18n="foot.top">{{foot.top}}</a>
+    </div>
+  </div>
+</footer>
